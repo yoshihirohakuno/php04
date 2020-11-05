@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    text-align: center;
+    }
+
+    /*Trigger Button*/
+    .i_login-trigger {
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to bottom right, #B05574, #F87E7B);
+    padding: 15px 30px;
+    border-radius: 30px;
+    position: relative; 
+    top: 50%;
+    margin-top: 20px;
+    }
+    
+    /*Modal*/
+    h2 {
+    font-weight: bold;
+    color: #fff;
+    }
+    .close {
+    color: #fff;
+    transform: scale(1.2)
+    }
+    .modal-content {
+    padding: 10px 0px 30px 0px;  
+    font-weight: bold;
+    background: linear-gradient(to bottom right,#F87E7B,#B05574);
+    }
+    .form-control {
+    margin: 2em 0;
+    padding: 0px 0px 5px;
+    }
+    .form-control:hover, .form-control:focus {
+    box-shadow: none;  
+    border-color: #fff;
+    }
+    .username, .password {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 4px solid #eee;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;  
+    }
+    .form-control::-webkit-input-placeholder {
+    color: #eee;  
+    }
+    .form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+    }
+
+    #select{
+        font-size: 18px;
+        margin: 15px;
+        padding: 5px 20px 5px 10px;
+
+    }
+
+    .submit_b {
+    padding: 13px 30px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #FAB87F;
+    color: #FAB87F;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 2em;
+    font-size: 18px;
+    }
+    .submit_b:hover {
+    background: #FAB87F;
+    color: #fff;
+    }
+
+    #index_footer{
+    display: block;
+    text-align: left;
+    list-style: none;
+    margin: 10px auto;
+        
+    }
+
+   /* #list {
+        display: block;
+        width: 200px;
+        text-align: center;
+        background-color: #FAB87F;
+        border: 2px solid #FAB87F;
+        font-size: 16px;
+        color: #FAB87F;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 24px;
+        border-radius: 4px;
+        position: relative;
+        margin-right: 10px;
+      } */
+
+
+      /* 飲み屋リストのボタン */
+      .btn-flat-border {
+        display: inline-block;
+        padding: 0.3em 1em;
+        text-decoration: none;
+        color: #67c5ff;
+        border: solid 2px #67c5ff;
+        border-radius: 3px;
+        transition: .4s;
+        margin-top: 10px;
+      }
+      
+      .btn-flat-border:hover {
+        background: #67c5ff;
+        color: white;
+      }
